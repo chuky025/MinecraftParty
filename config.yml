@@ -11,7 +11,7 @@ minigames:
     enabled: false
   DeadEnd:
     enabled: false
-  DisIntegration:
+  RedAlert:
     enabled: false
   LastArcherStanding:
     enabled: false
