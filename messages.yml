@@ -1,9 +1,8 @@
 # PartyGames - Plugin Originally created by instancelabs, Modified and updated by chuky025
 
-
 messages:
   you_left: '&cYou left the game.'
-  next_round_30_seconds: '&6Next round in 30 seconds! You can leave with /pg leave.'
+  next_round: '&6Next round in 30 seconds! You can leave with /pg leave.'
   setup_start: '&aStarting the creation of %minigame%.'
   setup_finish: '&aFinished'
   your_place: '&aYou are %place% place.'
@@ -31,6 +30,8 @@ messages:
   enable_minigame: '&aEnabled %minigame%.'
   enable_error1: '&cCould not find given Minigame.'
   enable_error2: '&cYou cannot change the state of a minigame while a game is running.'
+  countdown: '&aStarting in &6%count%'
+  after_countdown: '&aLet''s go!'
   minigame:
     pass_chicken: '&c&l%player% &epassed his Chicken to you! Try to get rid of it!'
     you_shot: '&6You shot &5%player%&6!'
@@ -41,15 +42,30 @@ messages:
     your_credits: '&aYou have &6%credits% &aCredits.'
     player_credits: '&a%player% has &6%credits% &aCredits.'
   description:
-    colormatch: Jump to the color corresponding to the wool color in your inventory!
-    deadend: Don't fall while the blocks are disappearing behind you!
-    RedAlert: Don't fall while the floor is disappearing!
-    jumpnrun: Jump to the finish!
-    lastarcherstanding: Shoot the others with the bow!
-    minefield: Run to the finish without touching the mines!
-    sheepfreenzy: 'Shear as many Sheeps as possible! Attention: Some of them explode.'
-    smokemonster: Avoid the smoke monster!
-    spleef: Destroy the floor under your opponents to make them fall and lose!
-    slapfight: Slap the other players to fall! You can use Double Jump in case you
-      fall, too.
-    chickentag: Pass the chicken to others or you'll lose!
+    colormatch: '&2&m==============================================%nl%&e&lColorMatch&7-
+      &aGame description:%nl%&fJump to the color corresponding to the wool%nl%colorin
+      your inventory!%nl%&2&m=============================================='
+    deadend: '&2&m==============================================%nl%&e&lDeadEnd &7-
+      &aGame description%nl%&fDon''t fall while the blocks are disappearing%nl%behind
+      you!%nl%&2&m=============================================='
+    redalert: '&2&m==============================================%nl%&e&lRedAlert
+      &7- &aGame description%nl%&fDon''t fall while the floor is disappearing!%nl%&2&m=============================================='
+    jumpnrun: '&2&m==============================================%nl%&e&lJumpnRun
+      &7- &aGame description%nl%&fJump to the finish!%nl%&2&m=============================================='
+    lastarcherstanding: '&2&m==============================================%nl%&e&lLastArcherStanding
+      &7- &aGame description%nl%&fShoot the others with the bow!%nl%&2&m=============================================='
+    minefield: '&2&m==============================================%nl%&e&lMineField
+      &7- &aGame description%nl%&fRun to the finish without touching the%nl%mines!%nl%&2&m=============================================='
+    sheepfreenzy: '&2&m==============================================%nl%&e&lSheepFreenzy
+      &7- &aGame description%nl%&fShear as many Sheeps as possible!%nl%Attention:
+      Some of them explode%nl%&2&m=============================================='
+    smokemonster: '&2&m==============================================%nl%&e&lSmokeMonster
+      &7- &aGame description%nl%&fAvoid the smoke monster!%nl%&2&m=============================================='
+    spleef: '&2&m==============================================%nl%&e&lSpleef &7-
+      &aGame description%nl%&fDestroy the floor under your%nl%opponents to make them
+      fall%nl%and lose!%nl%&2&m=============================================='
+    slapfight: '&2&m==============================================%nl%&e&lSlapFight
+      &7- &aGame description%nl%&fSlap the other players to fall! You%nl%can use Double
+      Jump in case you%nl%fall, too.%nl%&2&m=============================================='
+    chickentag: '&2&m==============================================%nl%&e&lChickenTag
+      &7- &aGame description%nl%&fPass the chicken to others or you''ll%nl%lose!%nl%&2&m=============================================='
