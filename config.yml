@@ -1,0 +1,27 @@
+# PartyGames - Do not modify this file, important data about the plugin is stored here
+
+
+lobby: []
+minigames:
+  Spleef:
+    enabled: false
+  MineField:
+    enabled: false
+  JumpnRun:
+    enabled: false
+  DeadEnd:
+    enabled: false
+  DisIntegration:
+    enabled: false
+  LastArcherStanding:
+    enabled: false
+  SheepFreenzy:
+    enabled: false
+  SmokeMonster:
+    enabled: false
+  SlapFight:
+    enabled: false
+  ChickenTag:
+    enabled: false
+  ColorMatch:
+    enabled: false
