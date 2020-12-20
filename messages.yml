@@ -1,16 +1,16 @@
-# PartyGames - Plugin Originally created by instancelabs, Modified and updated by chuky025
+# MinecraftParty - Plugin Originally created by instancelabs, Modified and updated by chuky025
 
 messages:
   you_left: '&cYou left the game.'
-  next_round: '&6Next round in 30 seconds! You can leave with /pg leave.'
+  next_round: '&6Next round in 30 seconds! You can leave with /mp leave.'
   setup_start: '&aStarting the creation of %minigame%.'
   setup_finish: '&aFinished'
   your_place: '&aYou are %place% place.'
   saved_lobby: '&aSaved Main lobby'
   saved_component: '&aSaved component'
   reload: '&aSuccessfully reloaded all files.'
-  on_join: '&6Use /pg leave to leave!'
-  game_full: '&cYou can''t join because the minigames party is full!'
+  on_join: '&6Use /mp leave to leave!'
+  game_full: '&cYou can''t join because the game is full!'
   joined_queue: '&aYou joined the queue. There are &6%min_players% &aplayers needed
     to start.'
   alredy_ingame: '&cYou are already in the game!'
@@ -22,8 +22,8 @@ messages:
     the end.'
   stopped_game: '&cStopping minigame, because there are less players than required!
     (%min_players%)'
-  ingame_commands: '&3You''re in PartyGames. Please use &6/pg leave &3to leave the
-    minigame.'
+  ingame_commands: '&3You''re in MinecraftParty. Please use &6/mp leave &3to leave
+    the minigame.'
   disable_minigame: '&cDisabled %minigame%.'
   disable_error1: '&cCould not find given Minigame.'
   disable_error2: '&cYou cannot change the state of a minigame while a game is running.'
